@@ -2,3 +2,5 @@ library(rvest)
 library(dplyr)
 library(stringr)
 
+stats_url <- read_html ("https://www.espn.com/mens-college-basketball/player/stats/_/id/4397347/liam-robbins")
+
